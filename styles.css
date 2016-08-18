@@ -1,0 +1,70 @@
+body.modal-on{
+	overflow:hidden;
+}
+
+body.modal-on .modal_wrapper{
+  display:block;
+}
+
+.modal_wrapper{
+	top:0;
+	left:0;
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.75);
+	display:none;
+}
+
+.modal{
+	position:relative;
+	top:30%;
+	margin:0 auto;
+	width:500px;
+	padding:15px;
+	background-color: #eeffff;
+	border-radius:15px;
+	text-align:center;
+}
+.close{
+	text-align:center;
+	display:inline-block;
+}
+
+.xinbox{
+	text-align:right;
+}
+
+button {
+	width:60px;
+	height:32px;
+	font-size:10px;
+	font-weight:bold;
+	margin:5px;
+	padding:0;
+	border-radius:10px;
+}
+p.yesno{
+	color:white;
+	padding:0px;
+}
+button.no {
+	background-color:red;
+	padding-top:0px;
+}
+
+button.yes {
+	background-color: green;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+a:hover{
+	color:red;
+}
+
+a.activate-modal{
+	text-decoration:underline;
+}
